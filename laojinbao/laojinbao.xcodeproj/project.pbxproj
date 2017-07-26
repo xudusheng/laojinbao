@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC99763A1F2795FE00A65826 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9976391F2795FE00A65826 /* main.m */; };
+		FC99763D1F2795FE00A65826 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC99763C1F2795FE00A65826 /* AppDelegate.m */; };
+		FC9976401F2795FE00A65826 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC99763F1F2795FE00A65826 /* ViewController.m */; };
+		FC9976431F2795FE00A65826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9976411F2795FE00A65826 /* Main.storyboard */; };
+		FC9976451F2795FE00A65826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9976441F2795FE00A65826 /* Assets.xcassets */; };
+		FC9976481F2795FE00A65826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9976461F2795FE00A65826 /* LaunchScreen.storyboard */; };
+		FC99766D1F279BA600A65826 /* SVWebViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC9976511F279BA600A65826 /* SVWebViewController.strings */; };
+		FC99766E1F279BA600A65826 /* SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9976541F279BA600A65826 /* SVModalWebViewController.m */; };
+		FC99766F1F279BA600A65826 /* SVWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC9976551F279BA600A65826 /* SVWebViewController.bundle */; };
+		FC9976701F279BA600A65826 /* SVWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9976571F279BA600A65826 /* SVWebViewController.m */; };
+		FC9976711F279BA600A65826 /* SVWebViewControllerActivityChrome-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = FC99765A1F279BA600A65826 /* SVWebViewControllerActivityChrome-iPad.png */; };
+		FC9976721F279BA600A65826 /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC99765B1F279BA600A65826 /* SVWebViewControllerActivityChrome-iPad@2x.png */; };
+		FC9976731F279BA600A65826 /* SVWebViewControllerActivityChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = FC99765D1F279BA600A65826 /* SVWebViewControllerActivityChrome.m */; };
+		FC9976741F279BA600A65826 /* SVWebViewControllerActivityChrome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC99765E1F279BA600A65826 /* SVWebViewControllerActivityChrome@2x.png */; };
+		FC9976751F279BA600A65826 /* SVWebViewControllerActivityReport-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9976601F279BA600A65826 /* SVWebViewControllerActivityReport-iPad@2x.png */; };
+		FC9976761F279BA600A65826 /* SVWebViewControllerActivityReport.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9976621F279BA600A65826 /* SVWebViewControllerActivityReport.m */; };
+		FC9976771F279BA600A65826 /* SVWebViewControllerActivityReport@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9976631F279BA600A65826 /* SVWebViewControllerActivityReport@2x.png */; };
+		FC9976781F279BA600A65826 /* SVWebViewControllerActivitySafari-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9976651F279BA600A65826 /* SVWebViewControllerActivitySafari-iPad.png */; };
+		FC9976791F279BA600A65826 /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9976661F279BA600A65826 /* SVWebViewControllerActivitySafari-iPad@2x.png */; };
+		FC99767A1F279BA600A65826 /* SVWebViewControllerActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9976681F279BA600A65826 /* SVWebViewControllerActivitySafari.m */; };
+		FC99767B1F279BA600A65826 /* SVWebViewControllerActivitySafari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9976691F279BA600A65826 /* SVWebViewControllerActivitySafari@2x.png */; };
+		FC99767C1F279BA600A65826 /* SVWebViewControllerActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = FC99766B1F279BA600A65826 /* SVWebViewControllerActivity.m */; };
+		FC99767F1F279BE200A65826 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC99767E1F279BE200A65826 /* WebViewController.m */; };
+		FC9976851F27A24500A65826 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9976821F27A24500A65826 /* NJKWebViewProgress.m */; };
+		FC9976861F27A24500A65826 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9976841F27A24500A65826 /* NJKWebViewProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC9976351F2795FE00A65826 /* laojinbao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = laojinbao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9976391F2795FE00A65826 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC99763B1F2795FE00A65826 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC99763C1F2795FE00A65826 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC99763E1F2795FE00A65826 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC99763F1F2795FE00A65826 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC9976421F2795FE00A65826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC9976441F2795FE00A65826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC9976471F2795FE00A65826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC9976491F2795FE00A65826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9976521F279BA600A65826 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		FC9976531F279BA600A65826 /* SVModalWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVModalWebViewController.h; sourceTree = "<group>"; };
+		FC9976541F279BA600A65826 /* SVModalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVModalWebViewController.m; sourceTree = "<group>"; };
+		FC9976551F279BA600A65826 /* SVWebViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVWebViewController.bundle; sourceTree = "<group>"; };
+		FC9976561F279BA600A65826 /* SVWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewController.h; sourceTree = "<group>"; };
+		FC9976571F279BA600A65826 /* SVWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewController.m; sourceTree = "<group>"; };
+		FC99765A1F279BA600A65826 /* SVWebViewControllerActivityChrome-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome-iPad.png"; sourceTree = "<group>"; };
+		FC99765B1F279BA600A65826 /* SVWebViewControllerActivityChrome-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome-iPad@2x.png"; sourceTree = "<group>"; };
+		FC99765C1F279BA600A65826 /* SVWebViewControllerActivityChrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivityChrome.h; sourceTree = "<group>"; };
+		FC99765D1F279BA600A65826 /* SVWebViewControllerActivityChrome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivityChrome.m; sourceTree = "<group>"; };
+		FC99765E1F279BA600A65826 /* SVWebViewControllerActivityChrome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome@2x.png"; sourceTree = "<group>"; };
+		FC9976601F279BA600A65826 /* SVWebViewControllerActivityReport-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityReport-iPad@2x.png"; sourceTree = "<group>"; };
+		FC9976611F279BA600A65826 /* SVWebViewControllerActivityReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivityReport.h; sourceTree = "<group>"; };
+		FC9976621F279BA600A65826 /* SVWebViewControllerActivityReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivityReport.m; sourceTree = "<group>"; };
+		FC9976631F279BA600A65826 /* SVWebViewControllerActivityReport@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityReport@2x.png"; sourceTree = "<group>"; };
+		FC9976651F279BA600A65826 /* SVWebViewControllerActivitySafari-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari-iPad.png"; sourceTree = "<group>"; };
+		FC9976661F279BA600A65826 /* SVWebViewControllerActivitySafari-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari-iPad@2x.png"; sourceTree = "<group>"; };
+		FC9976671F279BA600A65826 /* SVWebViewControllerActivitySafari.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivitySafari.h; sourceTree = "<group>"; };
+		FC9976681F279BA600A65826 /* SVWebViewControllerActivitySafari.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivitySafari.m; sourceTree = "<group>"; };
+		FC9976691F279BA600A65826 /* SVWebViewControllerActivitySafari@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari@2x.png"; sourceTree = "<group>"; };
+		FC99766A1F279BA600A65826 /* SVWebViewControllerActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivity.h; sourceTree = "<group>"; };
+		FC99766B1F279BA600A65826 /* SVWebViewControllerActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivity.m; sourceTree = "<group>"; };
+		FC99766C1F279BA600A65826 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
+		FC99767D1F279BE200A65826 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		FC99767E1F279BE200A65826 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		FC9976811F27A24500A65826 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
+		FC9976821F27A24500A65826 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
+		FC9976831F27A24500A65826 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgressView.h; sourceTree = "<group>"; };
+		FC9976841F27A24500A65826 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC9976321F2795FE00A65826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC99762C1F2795FE00A65826 = {
+			isa = PBXGroup;
+			children = (
+				FC9976371F2795FE00A65826 /* laojinbao */,
+				FC9976361F2795FE00A65826 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC9976361F2795FE00A65826 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC9976351F2795FE00A65826 /* laojinbao.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC9976371F2795FE00A65826 /* laojinbao */ = {
+			isa = PBXGroup;
+			children = (
+				FC99764F1F279B9900A65826 /* Vendor */,
+				FC99763B1F2795FE00A65826 /* AppDelegate.h */,
+				FC99763C1F2795FE00A65826 /* AppDelegate.m */,
+				FC99763E1F2795FE00A65826 /* ViewController.h */,
+				FC99763F1F2795FE00A65826 /* ViewController.m */,
+				FC99767D1F279BE200A65826 /* WebViewController.h */,
+				FC99767E1F279BE200A65826 /* WebViewController.m */,
+				FC9976411F2795FE00A65826 /* Main.storyboard */,
+				FC9976441F2795FE00A65826 /* Assets.xcassets */,
+				FC9976461F2795FE00A65826 /* LaunchScreen.storyboard */,
+				FC9976491F2795FE00A65826 /* Info.plist */,
+				FC9976381F2795FE00A65826 /* Supporting Files */,
+			);
+			path = laojinbao;
+			sourceTree = "<group>";
+		};
+		FC9976381F2795FE00A65826 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC9976391F2795FE00A65826 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC99764F1F279B9900A65826 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				FC9976801F27A24500A65826 /* NJKWebViewProgress */,
+				FC9976501F279BA600A65826 /* SVWebViewController */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		FC9976501F279BA600A65826 /* SVWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC9976511F279BA600A65826 /* SVWebViewController.strings */,
+				FC9976531F279BA600A65826 /* SVModalWebViewController.h */,
+				FC9976541F279BA600A65826 /* SVModalWebViewController.m */,
+				FC9976551F279BA600A65826 /* SVWebViewController.bundle */,
+				FC9976561F279BA600A65826 /* SVWebViewController.h */,
+				FC9976571F279BA600A65826 /* SVWebViewController.m */,
+				FC9976581F279BA600A65826 /* UIActivities */,
+			);
+			path = SVWebViewController;
+			sourceTree = "<group>";
+		};
+		FC9976581F279BA600A65826 /* UIActivities */ = {
+			isa = PBXGroup;
+			children = (
+				FC9976591F279BA600A65826 /* Chrome */,
+				FC99765F1F279BA600A65826 /* Report */,
+				FC9976641F279BA600A65826 /* Safari */,
+				FC99766A1F279BA600A65826 /* SVWebViewControllerActivity.h */,
+				FC99766B1F279BA600A65826 /* SVWebViewControllerActivity.m */,
+			);
+			path = UIActivities;
+			sourceTree = "<group>";
+		};
+		FC9976591F279BA600A65826 /* Chrome */ = {
+			isa = PBXGroup;
+			children = (
+				FC99765A1F279BA600A65826 /* SVWebViewControllerActivityChrome-iPad.png */,
+				FC99765B1F279BA600A65826 /* SVWebViewControllerActivityChrome-iPad@2x.png */,
+				FC99765C1F279BA600A65826 /* SVWebViewControllerActivityChrome.h */,
+				FC99765D1F279BA600A65826 /* SVWebViewControllerActivityChrome.m */,
+				FC99765E1F279BA600A65826 /* SVWebViewControllerActivityChrome@2x.png */,
+			);
+			path = Chrome;
+			sourceTree = "<group>";
+		};
+		FC99765F1F279BA600A65826 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				FC9976601F279BA600A65826 /* SVWebViewControllerActivityReport-iPad@2x.png */,
+				FC9976611F279BA600A65826 /* SVWebViewControllerActivityReport.h */,
+				FC9976621F279BA600A65826 /* SVWebViewControllerActivityReport.m */,
+				FC9976631F279BA600A65826 /* SVWebViewControllerActivityReport@2x.png */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		FC9976641F279BA600A65826 /* Safari */ = {
+			isa = PBXGroup;
+			children = (
+				FC9976651F279BA600A65826 /* SVWebViewControllerActivitySafari-iPad.png */,
+				FC9976661F279BA600A65826 /* SVWebViewControllerActivitySafari-iPad@2x.png */,
+				FC9976671F279BA600A65826 /* SVWebViewControllerActivitySafari.h */,
+				FC9976681F279BA600A65826 /* SVWebViewControllerActivitySafari.m */,
+				FC9976691F279BA600A65826 /* SVWebViewControllerActivitySafari@2x.png */,
+			);
+			path = Safari;
+			sourceTree = "<group>";
+		};
+		FC9976801F27A24500A65826 /* NJKWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				FC9976811F27A24500A65826 /* NJKWebViewProgress.h */,
+				FC9976821F27A24500A65826 /* NJKWebViewProgress.m */,
+				FC9976831F27A24500A65826 /* NJKWebViewProgressView.h */,
+				FC9976841F27A24500A65826 /* NJKWebViewProgressView.m */,
+			);
+			path = NJKWebViewProgress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC9976341F2795FE00A65826 /* laojinbao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC99764C1F2795FE00A65826 /* Build configuration list for PBXNativeTarget "laojinbao" */;
+			buildPhases = (
+				FC9976311F2795FE00A65826 /* Sources */,
+				FC9976321F2795FE00A65826 /* Frameworks */,
+				FC9976331F2795FE00A65826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = laojinbao;
+			productName = laojinbao;
+			productReference = FC9976351F2795FE00A65826 /* laojinbao.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC99762D1F2795FE00A65826 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = macos;
+				TargetAttributes = {
+					FC9976341F2795FE00A65826 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FC9976301F2795FE00A65826 /* Build configuration list for PBXProject "laojinbao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = FC99762C1F2795FE00A65826;
+			productRefGroup = FC9976361F2795FE00A65826 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC9976341F2795FE00A65826 /* laojinbao */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC9976331F2795FE00A65826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9976481F2795FE00A65826 /* LaunchScreen.storyboard in Resources */,
+				FC9976781F279BA600A65826 /* SVWebViewControllerActivitySafari-iPad.png in Resources */,
+				FC9976791F279BA600A65826 /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */,
+				FC99766D1F279BA600A65826 /* SVWebViewController.strings in Resources */,
+				FC9976771F279BA600A65826 /* SVWebViewControllerActivityReport@2x.png in Resources */,
+				FC9976451F2795FE00A65826 /* Assets.xcassets in Resources */,
+				FC9976711F279BA600A65826 /* SVWebViewControllerActivityChrome-iPad.png in Resources */,
+				FC9976721F279BA600A65826 /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */,
+				FC99766F1F279BA600A65826 /* SVWebViewController.bundle in Resources */,
+				FC99767B1F279BA600A65826 /* SVWebViewControllerActivitySafari@2x.png in Resources */,
+				FC9976751F279BA600A65826 /* SVWebViewControllerActivityReport-iPad@2x.png in Resources */,
+				FC9976741F279BA600A65826 /* SVWebViewControllerActivityChrome@2x.png in Resources */,
+				FC9976431F2795FE00A65826 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC9976311F2795FE00A65826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC99766E1F279BA600A65826 /* SVModalWebViewController.m in Sources */,
+				FC99767F1F279BE200A65826 /* WebViewController.m in Sources */,
+				FC9976701F279BA600A65826 /* SVWebViewController.m in Sources */,
+				FC9976401F2795FE00A65826 /* ViewController.m in Sources */,
+				FC9976851F27A24500A65826 /* NJKWebViewProgress.m in Sources */,
+				FC99763D1F2795FE00A65826 /* AppDelegate.m in Sources */,
+				FC9976761F279BA600A65826 /* SVWebViewControllerActivityReport.m in Sources */,
+				FC9976861F27A24500A65826 /* NJKWebViewProgressView.m in Sources */,
+				FC99763A1F2795FE00A65826 /* main.m in Sources */,
+				FC9976731F279BA600A65826 /* SVWebViewControllerActivityChrome.m in Sources */,
+				FC99767A1F279BA600A65826 /* SVWebViewControllerActivitySafari.m in Sources */,
+				FC99767C1F279BA600A65826 /* SVWebViewControllerActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC9976411F2795FE00A65826 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC9976421F2795FE00A65826 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC9976461F2795FE00A65826 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC9976471F2795FE00A65826 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FC9976511F279BA600A65826 /* SVWebViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC9976521F279BA600A65826 /* en */,
+				FC99766C1F279BA600A65826 /* zh-Hans */,
+			);
+			name = SVWebViewController.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC99764A1F2795FE00A65826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC99764B1F2795FE00A65826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC99764D1F2795FE00A65826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = laojinbao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youmi.laojinbao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FC99764E1F2795FE00A65826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = laojinbao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youmi.laojinbao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC9976301F2795FE00A65826 /* Build configuration list for PBXProject "laojinbao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC99764A1F2795FE00A65826 /* Debug */,
+				FC99764B1F2795FE00A65826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC99764C1F2795FE00A65826 /* Build configuration list for PBXNativeTarget "laojinbao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC99764D1F2795FE00A65826 /* Debug */,
+				FC99764E1F2795FE00A65826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC99762D1F2795FE00A65826 /* Project object */;
+}
